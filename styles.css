@@ -1,0 +1,50 @@
+body {
+  min-height: 100vh;
+  background: #000;
+  color: #f4bd16;
+}
+
+.meme-form {
+  padding-top: 54px;
+}
+
+.meme-form .form-label {
+  display: block;
+  color: #e43850;
+  font-size: clamp(1.8rem, 4vw, 2.5rem);
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.meme-input {
+  width: 240px;
+  height: 30px;
+  background: #df3046;
+}
+
+.meme-button {
+  margin-top: 24px;
+  background: #e43850;
+  color: #f4bd16;
+}
+
+.meme-button:hover {
+  background: #c92f45;
+  color: #ffd338;
+}
+.content {
+  margin-top: 14px;
+}
+.meme-title {
+  color: #f4bd16;
+}
+.meme-image {
+  width: 40%;
+  border-radius: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .meme-image {
+    width: 90%;
+  }
+}

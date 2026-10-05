@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Show Meme</title>
+
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="container text-center">
+      <form id="memeForm" class="meme-form" novalidate>
+        <label for="memeNumber" class="form-label">
+          Enter Number From 0 to 99
+        </label>
+
+        <input
+          id="memeNumber"
+          class="form-control meme-input mx-auto"
+          type="text"
+          autocomplete="off"
+        />
+
+        <button class="btn meme-button" type="submit">Show Meme</button>
+      </form>
+
+      <section id="memeContent" class="content" aria-live="polite"></section>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
